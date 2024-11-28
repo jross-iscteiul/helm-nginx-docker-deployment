@@ -1,5 +1,6 @@
 # Automatically deploy your custom web app on Kubernetes using Helm and Docker
 ## Pre-requirements
+If you don't have minikube setup yet, you can follow my [other repo that automates this.](https://github.com/jross-iscteiul/minikube-provision).
 For this demo, due to limitations in what can be done with minikube we will be using a single-node cluster. So if you have configured a minikube cluster with more, delete it and restart it with:
 ```bash
 minikube delete --all #remove cluster
