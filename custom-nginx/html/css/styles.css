@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background */
+    color: #333; /* Dark gray text for readability */
+}
+
+h1 {
+    background-color: #ff6600; /* Bright orange */
+    color: white; /* White text for contrast */
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+
+nav {
+    margin: 20px;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #ff6600; /* Bright orange links */
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: #cc5200; /* Slightly darker orange on hover */
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin: 20px;
+}
